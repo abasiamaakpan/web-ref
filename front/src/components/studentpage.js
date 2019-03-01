@@ -2,10 +2,18 @@ import React, { Component } from "react";
 import { Card, CardWrapper } from 'react-swipeable-cards';
 import { CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-
-
 import '../studentpage.css';
 
+/**
+* Code review by Abasiama Akpan
+**/
+/*
+	Great code modularity and organization of functions across all files. 
+	Function descriptions were excellent and tells the developer what you were trying to achieve
+	The use of let instead of var is good programming style
+	Files are organised appropriately
+	No console errors
+*/
 class studentpage extends Component {
 	constructor() {
 		super();
